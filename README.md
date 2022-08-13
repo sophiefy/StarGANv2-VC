@@ -1,4 +1,4 @@
-# StarGANv2-VC: A Diverse, Unsupervised, Non-parallel Framework for Natural-Sounding Voice Conversion
+# Stella VC based on StarGANv2
 
 ### Yinghao Aaron Li, Ali Zare, Nima Mesgarani
 
