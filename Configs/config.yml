@@ -7,8 +7,8 @@ pretrained_model: ""
 load_only_params: false
 fp16_run: true
 
-train_data: "Data/train_list.txt"
-val_data: "Data/val_list.txt"
+train_data: "Data/train_filelist.txt"
+val_data: "Data/val_filelist.txt"
 
 F0_path: "Utils/JDC/bst.t7"
 ASR_config: "Utils/ASR/config.yml"
