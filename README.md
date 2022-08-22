@@ -4,7 +4,9 @@
 
 ## Introduction
 
-Text-to-Speech is awesome, but it requires text-audio pairs. So it's way too hard to extract data from animations or live streams. The good news is that voice conversion only needs audio data! In this project, we achieve ACG voice convsersion using [StarGANv2-VC](https://arxiv.org/abs/2107.10394), with non-parallel data!
+Text-to-Speech is awesome, but it requires text-audio pairs. So it's way too hard to extract data from animations or live streams. The good news is that voice conversion only needs audio data! 
+
+In this project, we achieve ACG voice convsersion using [StarGANv2-VC](https://arxiv.org/abs/2107.10394), with non-parallel data!
 
 
 ## Model
