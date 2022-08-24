@@ -90,7 +90,7 @@ sleep(2000).then(() => {
 </script>
 """
 
-def get_audio(rate):
+def get_audio():
 	display(HTML(AUDIO_HTML))
 	data = eval_js("data")
 	binary = b64decode(data.split(',')[1])
@@ -114,7 +114,7 @@ def get_audio(rate):
 	riff = output[:4] + bytes(b) + output[8:]
 	sr, audio = read(io.BytesIO(riff))
 	audio = audio/max(abs(audio))
-	audio = librosa.resample(audio, sr, rate)
+	audio = librosa.resample(audio, sr, 16000)
 	audio, _ = librosa.effects.trim(audio)
 	audio = (32767*audio).astype(np.int16)
 	return audio
