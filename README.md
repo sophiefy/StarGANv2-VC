@@ -1,4 +1,4 @@
-# Stella VC Based on StarGANv2
+# Stella VC Based on StarGANv2-VC
 
 ![stargan](Assets/cover.png)
 
