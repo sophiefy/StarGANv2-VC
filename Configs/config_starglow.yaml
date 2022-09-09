@@ -1,4 +1,4 @@
-log_dir: "Models/Scientific"
+log_dir: "Models/Starglow"
 save_freq: 2
 device: "cuda"
 epochs: 150
