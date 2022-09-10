@@ -15,11 +15,11 @@ ASR_config: "Utils/ASR/config.yml"
 ASR_path: "Utils/ASR/epoch_00100.pth"
 
 preprocess_params:
-  sr: 22050
+  sr: 24000
   spect_params:
-    n_fft: 1024
-    win_length: 1024
-    hop_length: 256
+    n_fft: 2048
+    win_length: 1200
+    hop_length: 300
 
 model_params:
   dim_in: 64
