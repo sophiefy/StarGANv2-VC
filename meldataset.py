@@ -33,6 +33,14 @@ MEL_PARAMS = {
     "hop_length": 300
 }
 
+MEL_PARAMS_2 = {
+    "n_mels": 80,
+    "n_fft": 1024,
+    "win_length": 1024,
+    "hop_length": 256
+}
+    
+
 class MelDataset(torch.utils.data.Dataset):
     def __init__(self,
                  data_list,
