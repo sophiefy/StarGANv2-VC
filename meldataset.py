@@ -32,15 +32,7 @@ MEL_PARAMS = {
     "win_length": 1200,
     "hop_length": 300
 }
-
-MEL_PARAMS_2 = {
-    "n_mels": 80,
-    "n_fft": 1024,
-    "win_length": 1024,
-    "hop_length": 256
-}
     
-
 class MelDataset(torch.utils.data.Dataset):
     def __init__(self,
                  data_list,
@@ -55,7 +47,7 @@ class MelDataset(torch.utils.data.Dataset):
             for target in list(set([label for _, label in self.data_list]))}
 
         self.sr = sr
-        self.to_melspec = torchaudio.transforms.MelSpectrogram(**MEL_PARAMS_2)
+        self.to_melspec = torchaudio.transforms.MelSpectrogram(**MEL_PARAMS)
 
         self.mean, self.std = -4, 4
         self.validation = validation
