@@ -55,7 +55,7 @@ class MelDataset(torch.utils.data.Dataset):
             for target in list(set([label for _, label in self.data_list]))}
 
         self.sr = sr
-        self.to_melspec = torchaudio.transforms.MelSpectrogram(**MEL_PARAMS)
+        self.to_melspec = torchaudio.transforms.MelSpectrogram(**MEL_PARAMS_2)
 
         self.mean, self.std = -4, 4
         self.validation = validation
