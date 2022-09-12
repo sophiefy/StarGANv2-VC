@@ -182,4 +182,3 @@ Dataset/miyuki/231.wav|9
 Dataset/miyuki/038.wav|9
 Dataset/miyuki/252.wav|9
 Dataset/miyuki/238.wav|9
-Dataset/miyuki/073.wav|9
