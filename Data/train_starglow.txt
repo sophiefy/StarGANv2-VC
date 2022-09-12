@@ -9085,3 +9085,4 @@ Dataset/miyuki/161.wav|9
 Dataset/miyuki/131.wav|9
 Dataset/miyuki/456.wav|9
 Dataset/miyuki/335.wav|9
+Dataset/miyuki/073.wav|9
