@@ -25,7 +25,7 @@ model_params:
   dim_in: 64
   style_dim: 64
   latent_dim: 16
-  num_domains: 9
+  num_domains: 10
   max_conv_dim: 512
   n_repeat: 4
   w_hpf: 0
