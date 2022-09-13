@@ -2,7 +2,7 @@ log_dir: "Models/Starglow"
 save_freq: 2
 device: "cuda"
 epochs: 150
-batch_size: 8
+batch_size: 16
 pretrained_model: ""
 load_only_params: false
 fp16_run: true
