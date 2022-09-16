@@ -19,6 +19,7 @@ In this project, we achieve ACG voice convsersion using [StarGANv2-VC](https://a
 
 ## Demo
 - Colab: [StarGANv2 (声音转换)](https://colab.research.google.com/drive/1Xpn9yKBuJD59llXNJOrdUpFuiQNkwDqo?usp=sharing)
+- Colab: [StarGANv2 (语音、歌声声音转换)](https://colab.research.google.com/drive/165SLu3WQ8x49I-tv5C00TNGzGhL9dWW0?usp=sharing)
 - BILIBILI: [基于StarGANv2-VC的声音转换模型](https://www.bilibili.com/video/BV1Qe4y1o7wd?share_source=copy_web&vd_source=630b87174c967a898cae3765fba3bfa8)
 
 ## Contact
