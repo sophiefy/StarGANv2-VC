@@ -135,7 +135,7 @@ def main(config_path):
                 for v in value:
                     writer.add_figure('eval_spec', v, epoch)
         if (epoch % save_freq) == 0:
-            checkpoint_path = '/content/drive/MyDrive/ScientificSpeech/models/stargan.pth'
+            checkpoint_path = '/content/drive/MyDrive/StarGANv2-VC/models/stargan.pth'
             trainer.save_checkpoint(checkpoint_path)
             logger.info("Saving checkpoint at epoch {} to {}".format(epoch, checkpoint_path))
             
