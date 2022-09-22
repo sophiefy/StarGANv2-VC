@@ -3,7 +3,7 @@ save_freq: 2
 device: "cuda"
 epochs: 150
 batch_size: 16
-pretrained_model: ""
+pretrained_model: "/content/drive/MyDrive/StarGANv2-VC/models/stargan.pth"
 load_only_params: false
 fp16_run: true
 
